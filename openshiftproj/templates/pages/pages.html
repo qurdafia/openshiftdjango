@@ -1,0 +1,7 @@
+<h4>These are the latest pages:</h4>
+{% for page in latest_pages %}
+<p>
+  <strong>{{ page.page_name }}</strong><br />
+  {{ page.description }}
+</p>
+{% endfor }%}
