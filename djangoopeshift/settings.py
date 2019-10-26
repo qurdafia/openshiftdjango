@@ -88,6 +88,8 @@ DATABASES = {
         'NAME': 'mormash',
         'USER': 'mormash',
         'PASSWORD': '23responder23',
+        'HOST': '172.30.0.30',  # Your openshift host
+        'PORT': '3306',
     }
 }
 
